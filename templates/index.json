@@ -100,7 +100,8 @@
         "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": true
+        "enable_quick_add": true,
+        "image": "shopify:\/\/shop_images\/DSC6228_1000x_1_9d60dd3d-c25e-428a-aaf6-2b9931e779f1.jpg"
       }
     }
   },
