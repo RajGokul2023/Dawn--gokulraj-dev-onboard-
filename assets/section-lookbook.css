@@ -80,7 +80,7 @@
         padding: 5px 10px;
     }
     
-    .swiper-slide-thumb-active .pulse,.swiper-slide:hover .pulse{background: #000000;}
+    .swiper-slide-thumb-active .pulse,.swiper-slide:hover .pulse{background: var(--primary-color);}
     @keyframes animate-pulse{
         0%{
             box-shadow: 0 0 0 0 var(--pulse-color-3),  0 0 0 0 var(--pulse-color-3);
