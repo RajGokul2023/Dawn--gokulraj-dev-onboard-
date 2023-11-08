@@ -14,12 +14,16 @@
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
 {% style %}
-{% assign smLower = '992px' %}
-    @media(max-width: {{ smLower }}){
+    {%- liquid 
+      assign smLower = '992px'
+      assign smUpper = '1200px'
+    -%}
+  
+    @media only screen and (max-width: {{ smLower }}){
       .gallery-thumbs{width: 100% !important;}
     }
 
-    @media (max-width: 1200px){
+    @media only screen and (max-width: {{ smUpper }}){
       .container{flex-wrap: wrap; height: 100%; flex-direction: column-reverse;}
       
       .gallery-top .swiper-wrapper {height: 700px;}
