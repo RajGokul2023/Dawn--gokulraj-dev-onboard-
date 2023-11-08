@@ -816,7 +816,12 @@
       }
     },
     "lookbook": {
-      "name": "Look Book"
+      "name": "Look Book",
+      "settings": {
+        "header": {
+          "content": "Product settings"
+        }
+      }
     },
     "featured-product": {
       "name": "Featured product",
