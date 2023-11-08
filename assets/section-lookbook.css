@@ -1,7 +1,7 @@
 :root{
   --pulse-color-1: rgba(255,109,74,0.0);
   --pulse-color-2: rgba(255,109,74,0);
-  --pulse-color-3:
+  --pulse-color-3: rgba(255,109,74,0.7);
 }
     .container{
       display: inline-flex;
@@ -80,10 +80,10 @@
     .swiper-slide-thumb-active .pulse,.swiper-slide:hover .pulse{background: #000000;}
     @keyframes animate-pulse{
         0%{
-            box-shadow: 0 0 0 0 rgba(255,109,74,0.7),  0 0 0 0 rgba(255,109,74,0.7);
+            box-shadow: 0 0 0 0 var(--pulse-color-3),  0 0 0 0 var(--pulse-color-3);
         }
         40%{
-            box-shadow: 0 0 0 50px var(--pulse-color-1),  0 0 0 0 rgba(255,109,74,0.7);
+            box-shadow: 0 0 0 50px var(--pulse-color-1),  0 0 0 0 var(--pulse-color-3);
         }
         80%{
             box-shadow: 0 0 0 50px var(--pulse-color-1),  0 0 0 30px var(--pulse-color-2);
