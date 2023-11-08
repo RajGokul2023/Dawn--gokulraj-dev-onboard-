@@ -73,19 +73,25 @@
         "9ef9a25b-becf-4f82-b057-83bb17b8f4ac": {
           "type": "hotspot",
           "settings": {
-            "product": "test-product-2"
+            "product": "test-product-2",
+            "top_position": 45,
+            "left_position": 10
           }
         },
         "cb0e718d-c570-42f2-870f-c876db205f0f": {
           "type": "hotspot",
           "settings": {
-            "product": "test-product-3"
+            "product": "test-product-3",
+            "top_position": 10,
+            "left_position": 10
           }
         },
         "1f8acbfb-712e-42f3-bafa-92714785325a": {
           "type": "hotspot",
           "settings": {
-            "product": "test-product-7"
+            "product": "test-product-7",
+            "top_position": 10,
+            "left_position": 10
           }
         }
       },
