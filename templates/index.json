@@ -90,8 +90,8 @@
           "type": "hotspot",
           "settings": {
             "product": "test-product-7",
-            "top_position": 10,
-            "left_position": 10
+            "top_position": 30,
+            "left_position": 30
           }
         }
       },
