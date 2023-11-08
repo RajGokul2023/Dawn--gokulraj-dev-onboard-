@@ -102,3 +102,6 @@
       .quick-add__submit{min-width: 99% !important;}
       .button--full-width{width: 99%;}
     }
+    @media(max-width: 992px){
+      .gallery-thumbs{width: 100%;}
+    }
