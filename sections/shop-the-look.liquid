@@ -19,7 +19,7 @@
   <div class="swiper-container gallery-top">
     <div class="swiper-wrapper">
       {% for block in section.blocks %}
-      <div class="swiper-slide" style="background-image:url(https://swiperjs.com/demos/images/nature-1.jpg)">
+      <div class="swiper-slide">
             {% render 'card-product',
               card_product: block.settings.product,
               media_aspect_ratio: section.settings.image_ratio,
