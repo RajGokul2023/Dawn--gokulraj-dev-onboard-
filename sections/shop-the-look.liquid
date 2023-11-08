@@ -244,7 +244,7 @@
     }    
 
     {% for block in section.blocks %}
-    .gallery-thumbs .swiper-slide {
+    .gallery-thumbs .swiper-slide.gallery-{{block.id}} {
         position: absolute;
         top: {{ block.settings.top_position }}%;
         left: {{ block.settings.left_position }}%;
