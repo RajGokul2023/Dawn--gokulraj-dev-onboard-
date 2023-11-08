@@ -13,6 +13,23 @@
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
+{% style %}
+{% assign smLower = '992px' %}
+    @media(max-width: {{ smLower }}){
+      .gallery-thumbs{width: 100% !important;}
+    }
+
+    @media (max-width: 1200px){
+      .container{flex-wrap: wrap; height: 100%; flex-direction: column-reverse;}
+      
+      .gallery-top .swiper-wrapper {height: 700px;}
+      
+      .quick-add__submit{min-width: 99% !important;}
+      
+      .button--full-width{width: 99%;}
+    }
+  
+{% endstyle%}
  <div class="container page-width">
   <div class="swiper-container gallery-top">
     <div class="swiper-wrapper">
