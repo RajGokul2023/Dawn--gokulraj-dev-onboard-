@@ -79,13 +79,13 @@
         "cb0e718d-c570-42f2-870f-c876db205f0f": {
           "type": "hotspot",
           "settings": {
-            "product": ""
+            "product": "test-product-3"
           }
         },
         "1f8acbfb-712e-42f3-bafa-92714785325a": {
           "type": "hotspot",
           "settings": {
-            "product": ""
+            "product": "test-product-7"
           }
         }
       },
