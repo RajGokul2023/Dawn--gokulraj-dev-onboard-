@@ -74,8 +74,8 @@
           "type": "hotspot",
           "settings": {
             "product": "test-product-2",
-            "top_position": 45,
-            "left_position": 10
+            "top_position": 55,
+            "left_position": 70
           }
         },
         "cb0e718d-c570-42f2-870f-c876db205f0f": {
