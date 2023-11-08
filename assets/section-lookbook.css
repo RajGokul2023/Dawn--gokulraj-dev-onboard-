@@ -79,7 +79,7 @@
 }
 
 .swiper-slide-thumb-active .pulse,
-.swiper-slide:hover .pulse{background: var(--primary-color);}
+.swiper-slide:hover .pulse{background: var(--hover-color);}
 
 @keyframes animate-pulse{
     0%{
