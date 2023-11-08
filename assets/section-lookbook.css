@@ -1,7 +1,10 @@
 :root{
+  --pulse-color: rgba(255, 109, 74, 1);
   --pulse-color-1: rgba(255,109,74,0.0);
   --pulse-color-2: rgba(255,109,74,0);
   --pulse-color-3: rgba(255,109,74,0.7);
+  --primary-color: #000000;
+  
 }
     .container{
       display: inline-flex;
@@ -63,7 +66,7 @@
     .pulse{
         width: 100px;
         height: 100px;
-        background: #FF6D4A;
+        background: var(--pulse-color);
         border-radius: 50%;
         color: #FFF;
         font-size: 20px;
