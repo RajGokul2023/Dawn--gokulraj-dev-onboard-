@@ -253,47 +253,42 @@
     }  
     {% endfor %}
 
-    .hotspot-icon{
-      position: relative;
-      top: 50%;
-      left: 50%;
-      margin-left: -50px;
-      margin-top: -50px;
-      display: block;
-      width: 100px;
-      height: 100px;
-      font-size: 1.3em;
-      font-weight: light;
-      font-family: 'Trebuchet MS', sans-serif;
-      text-transform: uppercase;
-      text-align: center;
-      line-height: 100px;
-      letter-spacing: -1px;
-      color: white;
-      border: none;
-      border-radius: 50%;
-      background: #5a99d4;
-      cursor: pointer;
-      box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
-      -webkit-animation: pulse 1.5s infinite;
+    .center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-    .hotspot-icon:hover {
-      -webkit-animation: none;
+    .pulse{
+        width: 100px;
+        height: 100px;
+        background: #FF6D4A;
+        border-radius: 50%;
+        color: #FFF;
+        font-size: 20px;
+        text-align: center;
+        line-height: 100px;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        animation: animate-pulse 3s linear infinite;
+        cursor: pointer
     }
-    
-    @-webkit-keyframes pulse {
-      0% {
-        @include transform(scale(.9));
-      }
-      70% {
-        @include transform(scale(1));
-        box-shadow: 0 0 0 50px rgba(#5a99d4, 0);
-      }
-        100% {
-        @include transform(scale(.9));
-        box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
-      }
+    @keyframes animate-pulse{
+        0%{
+            box-shadow: 0 0 0 0 rgba(255,109,74,0.7),  0 0 0 0 rgba(255,109,74,0.7);
+        }
+        40%{
+            box-shadow: 0 0 0 50px rgba(255,109,74,0.0),  0 0 0 0 rgba(255,109,74,0.7);
+        }
+        80%{
+            box-shadow: 0 0 0 50px rgba(255,109,74,0.0),  0 0 0 30px rgba(255,109,74,0);
+        }
+        100%{
+            box-shadow: 0 0 0 0 rgba(255,109,74,0.0),  0 0 0 30px rgba(255,109,74,0);
+        }
+        
     }
+
   </style>
 <script>
     var galleryThumbs = new Swiper('.gallery-thumbs', {
