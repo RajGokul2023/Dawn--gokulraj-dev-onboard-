@@ -853,7 +853,12 @@
       },
       "blocks": {
         "hotspot": {
-          "name": "Hotspot icon"
+          "name": "Hotspot icon",
+          "settings": {
+            "product": {
+              "label": "Hotspot Product"
+            }
+          }
         }
       }
     },
