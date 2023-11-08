@@ -857,6 +857,12 @@
           "settings": {
             "product": {
               "label": "Hotspot Product"
+            },
+            "top_position": {
+              "label": "Top Position"
+            },
+            "left_position": {
+              "label": "Left Position"
             }
           }
         }
