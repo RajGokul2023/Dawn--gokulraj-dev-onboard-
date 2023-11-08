@@ -73,7 +73,7 @@
         "9ef9a25b-becf-4f82-b057-83bb17b8f4ac": {
           "type": "hotspot",
           "settings": {
-            "product": ""
+            "product": "test-product-2"
           }
         },
         "cb0e718d-c570-42f2-870f-c876db205f0f": {
@@ -97,7 +97,7 @@
       "settings": {
         "image_ratio": "adapt",
         "image_shape": "default",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "show_vendor": false,
         "show_rating": false,
         "enable_quick_add": false
