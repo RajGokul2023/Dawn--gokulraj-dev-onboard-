@@ -82,7 +82,7 @@
           "type": "hotspot",
           "settings": {
             "product": "test-product-3",
-            "top_position": 90,
+            "top_position": 85,
             "left_position": 55
           }
         },
