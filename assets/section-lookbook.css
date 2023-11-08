@@ -1,4 +1,7 @@
-.container{
+:root{
+  --pulse-color: 
+}
+    .container{
       display: inline-flex;
       width: 100%;
       gap: 30px;
