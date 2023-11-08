@@ -3,7 +3,8 @@
   --pulse-color-1: rgba(255,109,74,0.0);
   --pulse-color-2: rgba(255,109,74,0);
   --pulse-color-3: rgba(255,109,74,0.7);
-  --primary-color: #000000;
+  --hover-color: #000000;
+  --icon-color: #ffffff;
   
 }
     .container{
