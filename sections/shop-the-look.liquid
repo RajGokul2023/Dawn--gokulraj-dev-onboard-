@@ -225,11 +225,13 @@
         position: relative;
     }    
 
+    {% for block in section.blocks %}
     .gallery-thumbs .swiper-slide {
         position: absolute;
         top: 10%;
         left: 30%;
-    }        
+    }  
+    {% endfor %}
   </style>
 <script>
     var galleryThumbs = new Swiper('.gallery-thumbs', {
