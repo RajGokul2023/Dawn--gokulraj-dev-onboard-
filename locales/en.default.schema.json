@@ -850,6 +850,11 @@
         "image": {
           "label": "Main Banner Image"
         }
+      },
+      "blocks": {
+        "hotspot": {
+          "name": "Hotspot icon"
+        }
       }
     },
     "featured-product": {
