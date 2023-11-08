@@ -280,6 +280,7 @@
         pointer-events: all;
         padding: 5px 10px;
     }
+    
     .swiper-slide-thumb-active .pulse,.swiper-slide:hover .pulse{background: #000000;}
     @keyframes animate-pulse{
         0%{
@@ -296,10 +297,14 @@
         }
         
     }
+    
     span.pulse:before {
       content: "+";
     }
+    
     .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{bottom: inherit;}
+    
+    .swiper-pagination {position: absolute; bottom: -5px !important;}
   </style>
 <script>
     var galleryThumbs = new Swiper('.gallery-thumbs', {
