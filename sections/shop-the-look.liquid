@@ -246,8 +246,8 @@
     {% for block in section.blocks %}
     .gallery-thumbs .swiper-slide {
         position: absolute;
-        top: 10%;
-        left: 30%;
+        top: {{ block.settings.top_position }}%;
+        left: {{ block.settings.left_position }}%;
     }  
     {% endfor %}
   </style>
